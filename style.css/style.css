@@ -9,18 +9,18 @@
     display: table;
     clear: both;
 }
-.container{
-    width: 70%;
+.container {
+    width: 80%;
     margin: auto;
-    
+
 }
+
 
 /* titolo */
 
 header{
     text-align: center;
-    width: 80%;
-    margin: auto;
+   
     
 }
 header h1{
@@ -37,17 +37,24 @@ header p{
 /* main */
 
 .box{
+    margin: 40px 20px 0px 20px;
     float: left;
-    margin: 30px;
     background-color: black;
     color: white;
+    width: calc(100% / 3 - 40px);
+   
 }
 .img{
     float: left;
+
 }
 
 .info{
     float: left;
+    width: 40%;
+    
+    font-size: 12px;
+   
 
 }
 .mail{
