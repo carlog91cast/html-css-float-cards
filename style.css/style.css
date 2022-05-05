@@ -10,7 +10,7 @@
     clear: both;
 }
 .container{
-    width: 80%;
+    width: 70%;
     margin: auto;
     
 }
@@ -25,7 +25,7 @@ header{
 }
 header h1{
     color: palevioletred;
-    font-size: 37px;
+    font-size: 40px;
     margin: 30px;
     margin-top: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
@@ -38,9 +38,20 @@ header p{
 
 .box{
     float: left;
+    margin: 30px;
+    background-color: black;
+    color: white;
 }
 .img{
     float: left;
+}
+
+.info{
+    float: left;
+
+}
+.mail{
+    color:deepskyblue;
 }
 
 
