@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    
+}
+header h1{
+    color: palevioletred;
+    font-size: 40px;
+    margin: 30px;
+}
+header p{
+    padding: 10px;
+}
+
